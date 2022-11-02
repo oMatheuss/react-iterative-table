@@ -1,4 +1,4 @@
-<h1>REACT-ITERATIVE-TABLE</h1>
+# REACT-ITERATIVE-TABLE
 
 <p>A simple react component to easily print data arrays to screen</p>
 

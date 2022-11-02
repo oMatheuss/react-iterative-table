@@ -10,7 +10,7 @@ interface ColProps extends React.DetailedHTMLProps<React.ThHTMLAttributes<HTMLTa
 
 interface TableProps extends React.DetailedHTMLProps<React.TableHTMLAttributes<HTMLTableElement>, HTMLTableElement> {
     /** Needs to be the library's Col element and can be any amount. */ 
-    children?: ReactElement | React.ReactElement[],
+    children: ReactElement | React.ReactElement[],
     /** Number of iterations,  */ 
     it: number
 }
@@ -39,7 +39,7 @@ export const Table : React.FC<TableProps> = ({ it, children, ...rest }) => {
         return value.props;
       });
     } else {
-      return [children?.props];
+      return [children.props];
     }
   }, [children]);
 

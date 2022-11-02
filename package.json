@@ -1,6 +1,6 @@
 {
   "name": "react-iterative-table",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/oMatheuss/react-iterative-table.git"
   },
-  "keywords": [],
+  "keywords": ["table", "react"],
   "author": "",
   "license": "MIT",
   "bugs": {
